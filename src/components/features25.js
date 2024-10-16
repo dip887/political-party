@@ -99,10 +99,8 @@ const Features25 = (props) => {
         <div className="features25-image-container">
           {activeTab === 0 && (
             <img
-              // alt={props.feature1ImgAlt}
-              // src={props.feature1ImgSrc}
-              alt="image"
-              src="/smm.jpg"
+              alt={props.feature1ImgAlt}
+              src={props.feature1ImgSrc}
               className="features25-image1 thq-img-ratio-16-9"
             />
           )}

@@ -43,6 +43,9 @@
 .hero17-row-container1 {
   width: 100%;
 }
+.hero17-strip1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
 .hero17-placeholder-image10 {
   width: 400px;
   height: 400px;
@@ -67,6 +70,12 @@
   width: 400px;
   height: 400px;
 }
+.hero17-row-container2 {
+  width: 100%;
+}
+.hero17-strip3 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
 .hero17-placeholder-image16 {
   width: 400px;
   height: 400px;
@@ -87,54 +96,7 @@
   width: 400px;
   height: 400px;
 }
-.hero17-row-container2 {
-  width: 100%;
-}
 .hero17-placeholder-image21 {
-  width: 400px;
-  height: 400px;
-}
-.hero17-placeholder-image22 {
-  width: 400px;
-  height: 400px;
-}
-.hero17-placeholder-image23 {
-  width: 400px;
-  height: 400px;
-}
-.hero17-placeholder-image24 {
-  width: 400px;
-  height: 400px;
-}
-.hero17-placeholder-image25 {
-  width: 400px;
-  height: 400px;
-}
-.hero17-placeholder-image26 {
-  width: 400px;
-  height: 400px;
-}
-.hero17-placeholder-image27 {
-  width: 400px;
-  height: 400px;
-}
-.hero17-placeholder-image28 {
-  width: 400px;
-  height: 400px;
-}
-.hero17-placeholder-image29 {
-  width: 400px;
-  height: 400px;
-}
-.hero17-placeholder-image30 {
-  width: 400px;
-  height: 400px;
-}
-.hero17-placeholder-image31 {
-  width: 400px;
-  height: 400px;
-}
-.hero17-placeholder-image32 {
   width: 400px;
   height: 400px;
 }
@@ -147,10 +109,6 @@
 .hero17-text4 {
   display: inline-block;
   text-align: center;
-}
-.hero17root-class-name {
-  background-size: cover;
-  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
 }
 @media(max-width: 767px) {
   .hero17-content2 {

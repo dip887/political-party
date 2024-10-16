@@ -72,7 +72,9 @@ const Footer4 = (props) => {
           <div className="thq-divider-horizontal"></div>
           <div className="footer4-row">
             <div className="footer4-container">
-              <span className="thq-body-small">© 2024 Created By Dipanshu Garg</span>
+              <span className="thq-body-small">
+                © 2024 Crteated By Dipanshu Garg (SPTV)
+              </span>
             </div>
             <div className="footer4-footer-links">
               <span>

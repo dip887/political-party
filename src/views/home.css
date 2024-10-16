@@ -91,9 +91,112 @@
 .home-text22 {
   display: inline-block;
 }
+.home-container6 {
+  width: 100%;
+  height: 510px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden; /* Ensure it hides content outside the slider width */
+}
+
+.home-slider {
+  width: 1200px;
+  height: 100%; /* Set height to 100% to match the container */
+  display: flex;
+  align-items: center;
+  position: relative; /* Required for proper slider navigation placement */
+}
+
+.home-slider-slide1, 
+.home-slider-slide2, 
+.home-slider-slide3 {
+  min-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease-in-out; /* Add smooth sliding transition */
+}
+
+.home-slider-slide1 {
+  background-image: url("../../public/h11-600h.jpg");
+}
+
+.home-slider-slide2 {
+  background-image: url("../../public/h1-800h.jpeg");
+}
+
+.home-slider-slide3 {
+  background-image: url("../../public/h2.jpeg");
+}
+
+/* Slider pagination bullets */
+.home-slider-pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: gray;
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+  background: red;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+@keyframes slide {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-100%);
+  }
+  66% {
+    transform: translateX(-200%);
+  }
+}
+
+.home-slider {
+  animation: slide 9s infinite; /* Adjust speed as needed */
+}
+
+.home-link {
+  display: contents;
+}
+.home-component2 {
+  text-decoration: none;
+}
 .home-text23 {
   display: inline-block;
-  text-align: center;
 }
 .home-text24 {
   display: inline-block;
@@ -145,51 +248,45 @@
 }
 .home-text40 {
   display: inline-block;
+  text-align: center;
 }
 .home-text41 {
   display: inline-block;
+  text-align: center;
 }
 .home-text42 {
   display: inline-block;
+  text-align: center;
 }
 .home-text43 {
   display: inline-block;
 }
 .home-text44 {
   display: inline-block;
-  text-align: center;
 }
 .home-text45 {
   display: inline-block;
-  text-align: center;
 }
 .home-text46 {
   display: inline-block;
-  text-align: center;
 }
 .home-text47 {
   display: inline-block;
-  text-align: center;
 }
 .home-text48 {
   display: inline-block;
-  text-align: left;
 }
 .home-text49 {
   display: inline-block;
-  text-align: left;
 }
 .home-text50 {
   display: inline-block;
-  text-align: left;
 }
 .home-text51 {
   display: inline-block;
-  text-align: left;
 }
 .home-text52 {
   display: inline-block;
-  text-align: center;
 }
 .home-text53 {
   display: inline-block;
@@ -201,63 +298,6 @@
   display: inline-block;
 }
 .home-text56 {
-  display: inline-block;
-}
-.home-text57 {
-  display: inline-block;
-}
-.home-text58 {
-  display: inline-block;
-}
-.home-text59 {
-  display: inline-block;
-}
-.home-text60 {
-  display: inline-block;
-}
-.home-text61 {
-  display: inline-block;
-}
-.home-text62 {
-  display: inline-block;
-}
-.home-text63 {
-  display: inline-block;
-}
-.home-text64 {
-  display: inline-block;
-}
-.home-text65 {
-  display: inline-block;
-}
-.home-text66 {
-  display: inline-block;
-}
-.home-text67 {
-  display: inline-block;
-}
-.home-text68 {
-  display: inline-block;
-}
-.home-text69 {
-  display: inline-block;
-}
-.home-text70 {
-  display: inline-block;
-}
-.home-text71 {
-  display: inline-block;
-}
-.home-text72 {
-  display: inline-block;
-}
-.home-text73 {
-  display: inline-block;
-}
-.home-text74 {
-  display: inline-block;
-}
-.home-text75 {
   fill: var(--dl-color-theme-neutral-dark);
   color: var(--dl-color-theme-neutral-dark);
   display: inline-block;

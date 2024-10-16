@@ -40,129 +40,72 @@ const Hero17 = (props) => {
       </div>
       <div className="hero17-content2">
         <div className="hero17-row-container1 thq-mask-image-horizontal thq-animated-group-container-horizontal">
+          <div className="hero17-strip1 thq-animated-group-horizontal"></div>
           <div className="thq-animated-group-horizontal">
             <img
-              alt="image"
-              src={"/p.jpeg"}
+              alt={props.image1Alt}
+              src={props.image1Src}
               className="hero17-placeholder-image10 thq-img-ratio-1-1 thq-img-scale"
             />
             <img
-              alt="image"
-              src="/sm.jpg"
+              alt={props.image2Alt}
+              src={props.image2Src}
               className="hero17-placeholder-image11 thq-img-ratio-1-1 thq-img-scale"
             />
             <img
-              alt="image"
-              src="/smm.jpg"
+              alt={props.image3Alt}
+              src={props.image3Src}
               className="hero17-placeholder-image12 thq-img-ratio-1-1 thq-img-scale"
             />
             <img
-              alt="image"
-              src="/smmm.jpg"
+              alt={props.image4Alt}
+              src={props.image4Src}
               className="hero17-placeholder-image13 thq-img-ratio-1-1 thq-img-scale"
             />
             <img
-              alt="image"
-              src="/pos.jpg"
+              alt={props.image5Alt}
+              src={props.image5Src}
               className="hero17-placeholder-image14 thq-img-ratio-1-1 thq-img-scale"
-            />
-          </div>
-          <div className="thq-animated-group-horizontal">
-            <img
-              alt="image"
-              src="/ssm.jpg"
-              className="hero17-placeholder-image15 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt="image"
-              src="/sm.jpg"
-              className="hero17-placeholder-image16 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt="image"
-              src="/smmmmm.jpg"
-              className="hero17-placeholder-image17 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt="image"
-              src="/smmmmm.jpg"
-              className="hero17-placeholder-image17 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt="image"
-              src="/pos.jpg"
-              className="hero17-placeholder-image18 thq-img-ratio-1-1 thq-img-scale"
             />
             <img
               alt="Hero Image"
               src="https://images.unsplash.com/photo-1534312527009-56c7016453e6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIxfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&amp;ixlib=rb-4.0.3&amp;w=1500"
-              className="hero17-placeholder-image20 thq-img-ratio-1-1 thq-img-scale"
+              className="hero17-placeholder-image15 thq-img-ratio-1-1 thq-img-scale"
             />
           </div>
         </div>
         <div className="hero17-row-container2 thq-mask-image-horizontal thq-animated-group-container-horizontal">
+          <div className="hero17-strip3 thq-animated-group-horizontal-reverse"></div>
           <div className="thq-animated-group-horizontal-reverse">
             <img
-              alt="image"
-              src="/s1.jpg"
+              alt={props.image7Alt}
+              src={props.image7Src}
+              className="hero17-placeholder-image16 thq-img-ratio-1-1 thq-img-scale"
+            />
+            <img
+              alt={props.image8Alt}
+              src={props.image8Src}
+              className="hero17-placeholder-image17 thq-img-ratio-1-1 thq-img-scale"
+            />
+            <img
+              alt={props.image9Alt}
+              src={props.image9Src}
+              className="hero17-placeholder-image18 thq-img-ratio-1-1 thq-img-scale"
+            />
+            <img
+              alt={props.image10Alt}
+              src={props.image10Src}
+              className="hero17-placeholder-image19 thq-img-ratio-1-1 thq-img-scale"
+            />
+            <img
+              alt={props.image11Alt}
+              src={props.image11Src}
+              className="hero17-placeholder-image20 thq-img-ratio-1-1 thq-img-scale"
+            />
+            <img
+              alt="Hero Image"
+              src="https://images.unsplash.com/photo-1568214379698-8aeb8c6c6ac8?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEyfHxncmFmaWN8ZW58MHx8fHwxNzE1Nzk0OTk5fDA&amp;ixlib=rb-4.0.3&amp;w=1500"
               className="hero17-placeholder-image21 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt="image"
-              src="/s2.jpg"
-              className="hero17-placeholder-image22 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt="image"
-              src="/s5.jpg"
-              className="hero17-placeholder-image23 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt="image"
-              src="/s6.jpg"
-              className="hero17-placeholder-image24 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt="image"
-              src="/s7.jpg"
-              className="hero17-placeholder-image25 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt="image"
-              src="/s8.jpg"
-              className="hero17-placeholder-image26 thq-img-ratio-1-1 thq-img-scale"
-            />
-          </div>
-          <div className="thq-animated-group-horizontal-reverse">
-            <img
-              alt="image"
-              src="/s10.jpg" 
-              className="hero17-placeholder-image27 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt="image"
-              src="/s11.jpg" 
-              className="hero17-placeholder-image28 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt="image"
-              src="/s12.jpg" 
-              className="hero17-placeholder-image29 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt="image"
-              src="/s13.jpg"c
-              lassName="hero17-placeholder-image30 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt="image"
-              src="/s14.jpg"c
-              lassName="hero17-placeholder-image31 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt="image"
-              src="/s15.jpg" 
-                   className="hero17-placeholder-image32 thq-img-ratio-1-1 thq-img-scale"
             />
           </div>
         </div>
@@ -201,8 +144,6 @@ Hero17.defaultProps = {
   image4Alt: 'Hero Image',
   image3Src:
     'https://images.unsplash.com/photo-1613628851674-030c9b6a295c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyODk3NzMyMnw&ixlib=rb-4.0.3&q=80&w=1080',
-  image12Src:
-    'https://images.unsplash.com/photo-1571504940504-7c91d1286bea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyODk3NzMyM3w&ixlib=rb-4.0.3&q=80&w=1080',
   heading1: undefined,
   image2Alt: 'Hero Image',
   image9Src:
@@ -223,14 +164,10 @@ Hero17.defaultProps = {
     'https://images.unsplash.com/photo-1559847844-5315695dadae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyODk3NzMyMnw&ixlib=rb-4.0.3&q=80&w=1080',
   content1: undefined,
   image3Alt: 'Hero Image',
-  image12Alt: 'Hero Image',
-  image6Src:
-    'https://images.unsplash.com/photo-1460518451285-97b6aa326961?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyODk3NzMyM3w&ixlib=rb-4.0.3&q=80&w=1080',
   image8Alt: 'Hero Image',
   image7Alt: 'Hero Image',
   image2Src:
     'https://images.unsplash.com/photo-1709768669385-e22b79cf93f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyODk3NzMyMnw&ixlib=rb-4.0.3&q=80&w=1080',
-  image6Alt: 'Hero Image',
   image10Alt: 'Hero Image',
   image9Alt: 'Hero Image',
   image10Src:
@@ -241,7 +178,6 @@ Hero17.defaultProps = {
 Hero17.propTypes = {
   image4Alt: PropTypes.string,
   image3Src: PropTypes.string,
-  image12Src: PropTypes.string,
   heading1: PropTypes.element,
   image2Alt: PropTypes.string,
   image9Src: PropTypes.string,
@@ -256,12 +192,9 @@ Hero17.propTypes = {
   image11Src: PropTypes.string,
   content1: PropTypes.element,
   image3Alt: PropTypes.string,
-  image12Alt: PropTypes.string,
-  image6Src: PropTypes.string,
   image8Alt: PropTypes.string,
   image7Alt: PropTypes.string,
   image2Src: PropTypes.string,
-  image6Alt: PropTypes.string,
   image10Alt: PropTypes.string,
   image9Alt: PropTypes.string,
   image10Src: PropTypes.string,

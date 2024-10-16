@@ -26,6 +26,7 @@
 }
 .steps2-actions {
   gap: var(--dl-space-space-unit);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: flex-start;
 }
@@ -39,7 +40,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   background-color: var(--dl-color-theme-accent1);
 }
-.steps2-text15 {
+.steps2-text25 {
   top: var(--dl-space-space-unit);
   right: var(--dl-space-space-unit);
   position: absolute;
@@ -54,7 +55,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   background-color: var(--dl-color-theme-accent2);
 }
-.steps2-text18 {
+.steps2-text28 {
   top: var(--dl-space-space-unit);
   right: var(--dl-space-space-unit);
   position: absolute;
@@ -69,7 +70,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   background-color: var(--dl-color-theme-accent1);
 }
-.steps2-text21 {
+.steps2-text31 {
   top: var(--dl-space-space-unit);
   right: var(--dl-space-space-unit);
   position: absolute;
@@ -83,7 +84,7 @@
   transform: rotate(2deg);
   background-color: var(--dl-color-theme-accent2);
 }
-.steps2-text24 {
+.steps2-text34 {
   top: var(--dl-space-space-unit);
   right: var(--dl-space-space-unit);
   position: absolute;
@@ -91,32 +92,31 @@
   font-style: normal;
   font-weight: 700;
 }
-.steps2-text25 {
+.steps2-text35 {
+  display: inline-block;
+}
+.steps2-text36 {
+  display: inline-block;
+}
+.steps2-text37 {
   display: inline-block;
   text-align: center;
 }
-.steps2-text26 {
+.steps2-text38 {
   display: inline-block;
 }
-.steps2-text27 {
-  display: inline-block;
-  text-align: center;
-}
-.steps2-text28 {
-  display: inline-block;
-}
-.steps2-text29 {
+.steps2-text39 {
   display: inline-block;
   text-align: center;
 }
-.steps2-text30 {
+.steps2-text40 {
   display: inline-block;
   text-align: center;
 }
-.steps2-text31 {
+.steps2-text41 {
   display: inline-block;
 }
-.steps2-text32 {
+.steps2-text42 {
   display: inline-block;
 }
 @media(max-width: 991px) {
@@ -143,11 +143,6 @@
     width: 100%;
   }
   .steps2-container7 {
-    width: 100%;
-  }
-}
-@media(max-width: 479px) {
-  .steps2-button {
     width: 100%;
   }
 }

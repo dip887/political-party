@@ -3,22 +3,19 @@ import React from 'react'
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
-  Redirect,
+  Routes,
 } from 'react-router-dom'
 
-import './style.css'
 import Home from './views/home'
 import NotFound from './views/not-found'
 
 const App = () => {
   return (
   <Router>
-    <Switch>
-      <Route component={Home} exact path="/" />
+    <Routes>
+      <Route path="/" element={<Home/>} />
       <Route component={NotFound} path="**" />
-      <Redirect to="**" />
-    </Switch>
+    </Routes>
   </Router>
   );
 }
